@@ -1,2 +1,2 @@
 # ShopSmart-with-vanilla-HTML5-and-CSS3
- e-commerce website layout practice using vanilla HTML5/CSS3
+ShopSmart: an e-commerce website layout template using vanilla HTML5/CSS3.
