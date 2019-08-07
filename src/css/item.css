@@ -1,0 +1,440 @@
+	 ul,li,dl,ol,dt,dd {
+	 	list-style: none;
+	 }
+	/*Product Detail */
+	/*Nav-left*/
+	.article-l {
+		width: 480px;
+		margin: 26px 68px 0 0;
+	}
+	.article-l-t li {
+		float: left;
+		margin-right: 20px;
+		color: #666;
+		font-size: 14px;
+	}
+	.article-l-t li a {
+		color: #28a3ef;
+	}
+	.article-l-m {
+		width: 398px;
+		height: 398px;
+		border: 1px solid #EDEDED;
+		margin-top: 10px;
+	}
+	.article-l-b {
+		position: relative;
+	}
+	.article-l-b ul {
+		margin: 30px 0 0 30px; 
+	}
+	.article-l-b li img {
+		width: 56px;
+		height: 56px; 
+	}
+	.article-l-b li {
+		border: 1px solid #EDEDED;
+		margin-right: 10px;
+		float: left;
+		cursor: pointer;
+	}
+	.rows {
+		width: 401px;
+		height: 1px;
+		position: absolute;
+		top: 15px;
+	}
+	.rows-l,
+	.rows-r {
+		width: 19px;
+		color: #DDDDDD;
+		font: 34px/34px;
+		font-family: Arial, Helvetica, sans-serif;
+		cursor: pointer;
+	}
+	.article-r {
+		width: 652px;
+		margin-top: 40px;
+	}
+	.article-r-t p {
+		font-size: 20px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-weight: bold;
+		margin-bottom: 15px;
+	}
+	.red {
+		font-size: 14px;
+		color: #CF363E;
+	}
+	.article-r-m {
+		height:98px;
+		background: #FEE9EB;
+		margin-top: 20px;
+		padding: 15px 11px 0 9px;
+	}
+	.article-r-m .money s {
+		display: inline-block;
+		letter-spacing: 17px;
+		color: #000;
+	}
+	.money span {
+		font-size: 19px ;
+		font-family: Arial, Helvetica, sans-serif;
+		color: #E12228;
+		margin-right: 5px;
+	}
+ 	.money span:before {
+		content: "$";
+		font: 18px;
+		font-family: Arial, Helvetica, sans-serif;
+		color: #E12228;
+	}
+ 	.money i {
+		font-size: 13px;
+		color: #C81623;
+	}
+	.money p {
+		color: #999999;
+	}
+	.money1 {
+		margin-top: 13px;
+	}
+	.money1 s {
+		float: left;
+		letter-spacing: 17px;
+		color: #000;
+	}
+	.money1 span {
+		float: left;
+		width: 40px;
+		background: #C81623;
+		font: 12px/22px;
+		font-family: Arial, Helvetica, sans-serif;
+		color: #fff;
+		text-align: center;
+		margin-right: 8px;
+	}
+	.money1 p {
+		float: left;
+		font-size: 14px;
+		color: #999;
+	}
+	.money1 p a {
+		color: #28a3ef;
+		padding-left: 13px;
+	}
+	.money1 p a:hover {
+		text-decoration: underline;
+	}
+	.hold s {
+		float: left;
+		letter-spacing: 17px;
+		color: #000;
+	}
+	.article-r-m-2 {
+		margin-top: 15px;
+	}
+	.hold span {
+		color: #999999;
+	}
+	.send {
+		margin-top: 17px;
+	}
+	.send em {
+		font-family: Arial, Helvetica, sans-serif;
+		letter-spacing: 5px;
+		color: #000;
+		float: left;
+		margin-right: 13px;
+	}
+	.send p {
+		font-size: 14px;
+		color: #999;
+		margin-bottom: 15px;
+	}
+	.send .p2 {
+		margin-left: 65px;
+	}
+	.mg5 {
+		margin: 0 5px;
+	}
+	.mgt7 {
+		margin-top: 7px;
+	}
+	.article-b {
+		width: 547px;
+		border-top: 1px solid #999;
+		padding: 15px 0 0 9px;
+	}
+	.chance {
+		float: left;
+		color: #000;
+		margin-right: 14px;
+		line-height: 43px;
+	}
+	.chance2 {
+		float: left;
+		padding: 0 25px;
+		font: 12px/43px;
+		font-family: Arial, Helvetica, sans-serif;
+		background: #F7F7F7;
+		border: 1px solid #EDEDED;
+		margin-right: 8px; 
+		cursor: pointer;
+	}
+
+	.chancebook li.special {
+		border: 1px solid #C81623;
+	}
+	.chancecloth span {
+		letter-spacing: 12px;
+	}
+	.addcar-l {
+		width: 49px;
+		height: 44px;
+		border: 1px solid #ccc;
+	}
+	.add-input1 {
+		width: 33px;
+		height: 46px;
+		border-right: 1px solid #ccc;
+		text-align: center;
+		font: 12px/44px;
+		font-family: Arial, Helvetica, sans-serif;
+	}
+	.addcar-input2-1 {
+		border-bottom: 1px solid #ccc;
+	}
+	.addcar-input2-1 input {
+		width: 15px;
+		height: 22px;
+	}
+	.addcar-input2-2 input {
+		width: 15px;
+		height: 22px;
+	}
+	.addcar-r {
+		width: 142px;
+		height: 46px;
+		line-height: 46px;
+		background: #C81623;
+		font-size: 18px;
+		font-weight: bold;
+		font-family: Arial, Helvetica, sans-serif;
+		text-align: center;
+		color: #fff;
+		cursor: pointer;
+		margin-left: 10px;
+	}
+	.mgt30 {
+		margin-top: 30px;
+	}
+	.section-l {
+		width: 209px;
+		border: 1px solid #ddd ;
+		border-top: none;
+	}
+	.section-l-t {
+		height: 33px;
+	}
+	.section-l-t li {
+		float: left;
+		width: 103px;
+		font: 12px/33px;
+		font-family: Arial, Helvetica, sans-serif;
+		text-align: center;
+	}
+	.section-l-t .bdrnone {
+		border: 1px solid #ddd;
+		border-right: none;
+		cursor: pointer;
+		background: rgb(241,241,241);
+	}
+	.section-l-t .bdrnone:hover {
+		background: rgba(241,241,241,0.5);
+	}
+	.section-l-t .bdtblue {
+		border-top: 2px solid #31C6EE;
+	}
+	.section-l-m {
+		padding: 0 5px;
+	}
+	.section-l-m li {
+		float: left;
+		width: 89px;
+		border-bottom: 2px dashed #EDEDED;
+		line-height: 27px; 
+		padding-left: 5px;
+	}
+	.section-l-b {
+		margin-top: 24px;
+		padding: 0 5px;
+	}
+	.section-l-img {
+		width: 187px;
+		height: 127px;
+	}
+	.section-l-img img {
+		width: 187px;
+		height: 127px;
+		margin-left: 4px;
+	}
+	.section-l-p {
+		margin-left: 17px;
+		font-size: 14px;
+	}
+	.section-l-p:after {
+		content: "$1299";
+		color: rgb(59, 56, 56);
+		font-weight: bold;
+	}
+	.section-l-button {
+		border-bottom: 1px solid #E5E5E5;
+		margin-bottom: 25px;
+	}
+	.section-l-button input {
+		width: 88px;
+		height: 30px;
+		background: #F7F7F7;
+		border: 1px solid #ddd;
+		color: #333;
+		font-size: 15px;
+		font-family: Arial, Helvetica, sans-serif;
+		margin: 3px 0 20px 54px;
+		cursor: pointer;
+	}
+	.section-l-button input:hover {
+		background: #646473;
+		color: #fff;
+	}
+	.section-r {
+		width: 979px;
+	}
+	.section-r-t {
+		width: 977px;
+		border: 1px solid #ddd;
+	}
+	.section-chance-t {
+		height: 39px;
+		border-bottom: 1px solid #ddd;
+		background: #F1F1F1;
+	}
+	.section-chance-t .chancetext {
+		width: 87px;
+		height: 39px;
+		line-height: 39px;
+		text-align: center;
+		background: #C81623;
+		font-size: 16px;
+		font-family: Arial, Helvetica, sans-serif;
+		color: #fff;
+	}
+	.section-chance-b .chance-i-l {
+		width: 790px;
+		padding-left: 17px;
+	}
+	.chance-i-l-t li {
+		float: left;
+		margin: 13px 44px 0 0;
+	}
+	.chance-i-l-b {
+		margin-top: 26px;
+	}
+	.chance-i-l-blb {
+		width: 130px;
+	}
+	.chance-i-l-bl {
+		width: 130px;
+		height: 130px;
+		border: 1px solid #C81623;
+	}
+	.chance-i-l-bl img {
+		width: 130px;
+		height: 130px;
+	}
+	.chance-i-l-blb p {
+		text-align: center;
+		font: 700 12px;
+		font-family: Arial, Helvetica, sans-serif;
+	}
+	.chance-i-l-bm {
+		width: 38px;
+		font: 700 12px/132px;
+		font-family: Arial, Helvetica, sans-serif;
+		padding-left: 11px;
+	}
+	.chance-i-l-br .chance-i-l-brt {
+		width: 137px;
+		height: 95px;
+		padding: 18px 0 0 15px;
+	}
+	.chance-i-l {
+		position: relative;
+	}
+	.chance-i-l .rowr {
+		width: 19px;
+		font: 19px/49px;
+		font-family: Arial, Helvetica, sans-serif;
+		background: #DDDDDD;
+		position: absolute;
+		top: 87px;
+		right: 0px;
+		text-align: center;
+		color: #fff;
+	}
+	.chance-go-r {
+		border-left: 1px solid #DDDDDD;
+	}
+	.chance-go-text {
+		margin: 46px 0 0 16px;
+	}
+	.chance-go-text span {
+		display: block;
+		font-weight: 700;
+	}
+	.chance-go-text i {
+		font-size: 19px;
+	}
+	.chance-go-r .chance-go-button {
+		width: 100px;
+		background: #C81623;
+		color: #fff;
+		font: 700 15px/30px;
+		font-family: Arial, Helvetica, sans-serif;
+		text-align: center;
+		margin: 47px 0 48px 14px;
+	}
+	.section-r-b-t {
+		width: 977px;
+		height: 39px;
+		background: #F1F1F1;
+		margin-top: 20px;
+	}
+	.section-r-b-t li {
+		height: 39px;
+		line-height: 39px;
+		padding: 0 20px;
+		font: 12px/39px;
+		font-family: Arial, Helvetica, sans-serif;
+		float: left; 
+	}
+	.section-r-b-t li.speciall {
+		background: #C81623;
+		color: #fff;
+	}
+	.section-r-b-m {
+		margin-top: 24px;
+	}
+	.section-r-b-m p {
+		font-size: 15px;
+		margin-bottom: 9px;
+	}
+	.section-r-b-m p span {
+		cursor: pointer;
+		float: right;
+		font-weight: 700;
+	}
+	.section-r-bb {
+		width: 980px;
+		border-top: 1px solid #ddd;
+	}

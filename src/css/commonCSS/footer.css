@@ -1,0 +1,142 @@
+/* Footer Section */
+footer {
+    margin-top: 40px;
+    height: 392px;
+    background-color: #F5F5F5;
+}
+.footer_container {
+    height: 392px;
+}
+.footer_container_upper {
+    height: 98px;
+    border-bottom: 2px solid #F1F1F1;
+}
+.footer_container_upper ul {
+    list-style: none;
+}
+.footer_container_upper ul li {
+    position: relative;
+    width: 240px;
+    height: 99px;
+    float: left;
+}
+.upper_box {
+    position: absolute;
+    width: 158px;
+    height: 50px;
+    top: 50%;
+    left: 50%;
+    margin-top: -25px;
+    margin-left: -79px;
+}
+.upper_box_icon {
+    width: 50px;
+    height: 50px;
+    background-image: url('../../images/icons.png');
+    background-position: -257px -157px;
+    float: left;
+}
+.upper_box_text {
+    width: 108px;
+    height: 50px;
+    float: left;
+}
+.upper_box_text_upper {
+    width: 108px;
+    height: 25px;
+    line-height: 25px;
+    text-indent: 5px;
+    color: #666666;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+.upper_box_text_lower {
+    width: 108px;
+    height: 25px;
+    line-height: 25px;
+    text-indent: 5px;
+    color: #666666;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+.footer_container_middle {
+    height: 187px;
+    border-bottom: 2px solid #F1F1F1;
+}
+.list_container {
+    position: relative;
+    width: 200px;
+    height: 187px;
+    float: left;
+}
+.list_box {
+    position: absolute;
+    width: 120px;
+    height: 130px;
+    top: 50%;
+    left: 50%;
+    margin-top: -65px;
+    margin-left: -60px;
+    float: left;
+}
+.list_box_title {
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+    color: #666666;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+.list_box_content {
+    width: 120px;
+    height: 100px;
+}
+.list_box_content ul {
+    list-style: none;
+}
+.list_box_content ul li{
+    width: 120px;
+    height: 20px;
+}
+.list_box_content ul li a{
+    display: inline-block;
+    height: 20px;
+    line-height: 20px;
+    text-decoration: none;
+    color: #666666;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+.footer_container_lower{
+    position: relative;
+    height: 103px;
+}
+.footer_box {
+    position: absolute;
+    width: 800px;
+    height: 50px;
+    top: 50%;
+    left: 50%;
+    margin-top: -25px;
+    margin-left: -400px;
+}
+.footer_additional {
+    width: 800px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    color: #666666;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+.footer_author {
+    width: 800px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    color: #666666;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}

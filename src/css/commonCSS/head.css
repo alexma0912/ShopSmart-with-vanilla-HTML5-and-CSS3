@@ -1,0 +1,207 @@
+/* Head Navigator Section */
+.head_nav {
+    height: 32px;
+    background-color: #F1F1F1;
+}
+.head_nav_container {
+    height: 32px;
+}
+#login_box {
+    width: 175px;
+    height: 32px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#666666;
+    font-weight: bold;
+    line-height: 32px;
+    text-align: center;
+    float: left;
+}
+#login_box a {
+    text-decoration: none;
+    color: #C81523;
+}
+#login_box a:hover{
+    color: #666666;
+}
+#head_nav_box {
+    width: 588px;
+    height: 32px;
+    float: right;
+}
+#head_nav_box ul {
+    list-style: none;
+}
+#head_nav_box li {
+    position: relative;
+    width: 98px;
+    height: 32px;
+    float: left;
+}
+.head_nav_list {
+    border-left: 1px solid #666666;
+}
+.head_nav_list div {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background-image: url('../../images/arrow_down.png');
+    background-size: 100%;
+    vertical-align: middle;
+}
+.head_nav_list_highlight {
+    color: #C81523 !important;  
+}
+.head_nav_list_highlight:hover {
+    color: #FF0000 !important;
+}
+#head_nav_box li a{
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#666666;
+    width: 98px;
+    height: 16px;
+    left: 50%;
+    top: 50%;
+    margin-left: -49px;
+    margin-top: -8px;
+}
+#head_nav_box li a:hover {
+    color: #C81523;
+}
+
+/* Head Banner Section */
+.head_banner {
+    position: relative;
+    height: 107px;
+}
+.head_banner_container {
+    position: absolute;
+    width: 1200px;
+    height: 56px;
+    top: 50%;
+    margin-top: -28px;
+}
+.head_banner #logo {
+    width: 175px;
+    height: 56px;
+    background-image: url('../../images/logo.png');
+    float: left;
+}
+.head_banner #search_section_box {
+    position: relative;
+    left: 10em;
+    width: 538px;
+    height: 56px;
+    float: left;
+}
+#search_section_box #search_bar {
+    width:538px;
+    height: 32px;
+    background-color:yellowgreen;
+}
+#search_bar #search_bar_input {
+    width:454px;
+    height: 28px;
+    text-indent: 0.75em;
+    border: 2px solid #B2181A;
+    outline: none;
+    float: left;
+}
+#search_bar #search_bar_button {
+    width: 80px;
+    height: 32px;
+    background-color: #B2181A;
+    color:white;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    border:0;
+    outline: none;
+    float: right;
+}
+#search_section_box #search_nav_list {
+    width:538px;
+    height: 24px;
+}
+#search_nav_list ul {
+    list-style: none;
+}
+#search_nav_list li {
+    position: relative;
+    width: 134.5px;
+    height: 24px;
+    float: left;
+}
+#search_nav_list li a{
+    position: absolute;
+    display: inline-block;
+    width: 134.5px;
+    text-decoration: none;
+    color: #666666;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    bottom: 0;
+}
+#search_nav_list .selected {
+    color: #CA1329;
+}
+.head_banner #shopping_chart {
+    position: relative;
+    right: 4em;
+    width: 140px;
+    height: 34px;
+    background-color: #F2F2F2;
+    border: 1px solid #DFDFDF;
+    float: right;
+}
+#shopping_chart_logo {
+    position: relative;
+    width: 50px;
+    height: 34px;
+    float: left;
+}
+#shopping_chart_logo div {
+    position: absolute;
+    width: 19px;
+    height: 15px;
+    top:50%;
+    margin-top: -7.5px;
+    right: 7px;
+    background-image: url('../../images/icons.png');
+    background-position: -415px -89px;
+    background-repeat: no-repeat;
+}
+#shopping_chart_text {
+    width: 90px;
+    height: 34px;
+    line-height: 34px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    float: left;
+}
+#shopping_chart_text a {
+    display: inline-block;
+    position: relative;
+    width: 90px;
+    height: 34px;
+    text-decoration: none;
+    color: #666666;
+}
+#shopping_chart_text .shopping {
+    position: absolute;
+    color: white;
+    width: 20px;
+    height: 14px;
+    background: #CA1329;
+    text-align: center;
+    top: -6px;
+    line-height: 14px;
+    border-radius: 50% 50% 50% 10%;
+}
